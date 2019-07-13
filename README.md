@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Builds getter and setter methods to calculate computed properties
+-   Builds getter and setter methods to calculate computed properties
 
 ## Introduction
 
@@ -51,22 +51,22 @@ buddy.speak; // returns 'Buddy says What'cha doin'?'
 
 Building on this concept, we're going to build our own shape calculator!
 
-- First, let's create a `class` of `Circle`
-- `Circle` will accept 1 parameter, `radius`, and use `this.radius` to store the
-  value
-- Use `Math.PI` to get an accurate measurement of [pi][pi] (&pi;)
-- Define getter methods for `diameter`, `circumference`, and `area` which
-  will calculate each value using `this.radius` and pi
-- Define setter methods for `diameter`, `circumference`, and `area` which
-  will accept values for each calculation, calculate the _radius_ based on the
-  input value and _set_ `this.radius` accordingly
+-   First, let's create a `class` of `Circle`
+-   `Circle` will accept 1 parameter, `radius`, and use `this.radius` to store the
+    value
+-   Use `Math.PI` to get an accurate measurement of [pi][pi] (π)
+-   Define getter methods for `diameter`, `circumference`, and `area` which
+    will calculate each value using `this.radius` and pi
+-   Define setter methods for `diameter`, `circumference`, and `area` which
+    will accept values for each calculation, calculate the _radius_ based on the
+    input value and _set_ `this.radius` accordingly
 
 For reference, here are the formulas for calculating diameter, circumference and
 area:
 
-- Diameter = radius &bull; 2
-- Circumference = &pi; &bull; diameter
-- Area = &pi; &bull; radius<sup>2</sup>
+-   Diameter = radius • 2
+-   Circumference = π • diameter
+-   Area = π • radius<sup>2</sup>
 
 > Don't forget about [PEMDAS](https://en.wikipedia.org/wiki/Order_of_operations)!
 
@@ -87,6 +87,6 @@ the output you want.
 
 ## Resources
 
-- [Property getters and setters](https://javascript.info/property-accessors)
+-   [Property getters and setters](https://javascript.info/property-accessors)
 
 [pi]: https://en.wikipedia.org/wiki/Pi
